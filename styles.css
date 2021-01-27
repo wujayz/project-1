@@ -39,9 +39,9 @@ a:hover{
 .nav {
     display: flex;
     justify-content: space-around;
-    font-weight: 395;
+    font-weight: 400;
     list-style-type: none;
-    margin: 5 auto;
+    margin: 5px auto;
     padding: 0;
 }
 
