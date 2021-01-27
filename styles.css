@@ -57,7 +57,7 @@ a:hover{
     transition: all .25s;
 }
 
-header {
+header{
     text-align: center;
     background: url('images/background.jpg') no-repeat top center;
     background-size: cover;
@@ -179,9 +179,39 @@ a.social:hover {
   clear: both;
 }
 
+.construction {
+    color: tomato;
+}
 
+.const {
+    margin-top: 100px;
+    border-radius: 10%;
+    border: 10px solid black;
+}
 
+/*
+    ^ Front Page, below is about page
+*/
 
+.about{
+    text-align: center;
+    background: none;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 200px;
+}
+
+.bio {
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.bio2 {
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 1px;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
