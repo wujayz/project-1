@@ -193,24 +193,29 @@ a.social:hover {
     ^ Front Page, below is about page
 */
 
-.about{
-    text-align: center;
+.no-background {
     background: none;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 200px;
+    margin: 10px;
+    padding: 150px;
+    padding-bottom: 30px;
+    line-height: 2;
+    font-size: medium;
 }
 
-.bio {
-    text-align: left;
-    padding-left: 200px;
-    padding-top: 50px;
+.about {
+    margin: 10px;
+    line-height: 2;
 }
 
-.bio2 {
-    text-align: left;
-    padding-left: 200px;
-    padding-top: 1px;
+.footer-about {
+    background-color: skyblue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.highlight {
+    color: white;
 }
 
 /* Styles for larger screens */
